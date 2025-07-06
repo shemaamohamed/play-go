@@ -12,6 +12,8 @@ const WhatsUp = () => {
         https://wa.me/+962770999991"
         className="fixed bottom-6 right-6 z-50 rounded-full bg-primary p-3 text-white shadow-lg hover:bg-primary/90 focus:outline-none"
         aria-label="WhatsApp"
+        rel="noopener noreferrer"
+        target="_blank"
       >
         <div className="h-6 w-6">
           <img
