@@ -42,7 +42,7 @@ const WhyUs = () => {
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: false }}
             transition={{ duration: 0.5 }}
             className="title-section mx-auto"
           >
@@ -57,7 +57,7 @@ const WhyUs = () => {
               key={index}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: false }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className=" flex flex-col  justify-center items-center rounded-lg bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-md dark:bg-card"
             >

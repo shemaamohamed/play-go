@@ -17,7 +17,7 @@ const About = () => {
              <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: false }}
             transition={{ duration: 0.5 }}
             className=" mx-auto m-auto text-center flex justify-center items-center mb-12 text-3xl md:text-4xl lg:text-5xl font-bold text-primary"
           >
@@ -65,7 +65,7 @@ const About = () => {
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: false }}
             transition={{ duration: 0.5, delay: 0.3 }}
             className="relative"
           >
@@ -86,7 +86,7 @@ const About = () => {
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: false }}
             transition={{ duration: 0.5, delay: 0.4 }}
             className="flex flex-col justify-center"
           >
