@@ -4,7 +4,6 @@ import { Toaster } from "@/components/ui/toaster";
  import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-import ScrollToTop from "@/components/ui/scroll-to-top";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import AppRouter from "./AppRouter";
 import Layout from "./components/layout/Layout";
