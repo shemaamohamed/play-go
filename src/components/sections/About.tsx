@@ -10,7 +10,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className=" w-full  section-padding relative overflow-hidden bg-white  py-6"
+      className=" w-full  section-padding relative overflow-hidden bg-white  mt-20 lg:mt-5"
     >
     
       <div className=" relative container-custom">
