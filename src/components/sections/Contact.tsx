@@ -104,7 +104,7 @@ const contact = () => {
                   <div>
                     <h4 className="font-medium">{i18n.language === 'ar' ? 'واتساب' : 'whatsapp'}</h4>
                           <a
-  href="https://wa.me/ +962770999991"
+  href="https://wa.me/+962770999991"
   target="_blank"
   rel="noopener noreferrer"
   className="  text-primary transition-colors hover:bg-primary group"

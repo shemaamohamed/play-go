@@ -9,7 +9,7 @@ const WhatsUp = () => {
         exit={{ opacity: 0, y: 20 }}
         transition={{ duration: 0.2 }}
         href="
-        https://wa.me/ +962770999991"
+        https://wa.me/+962770999991"
         className="fixed bottom-6 right-6 z-50 rounded-full bg-primary p-3 text-white shadow-lg hover:bg-primary/90 focus:outline-none"
         aria-label="WhatsApp"
       >
