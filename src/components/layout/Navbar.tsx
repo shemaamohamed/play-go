@@ -65,7 +65,7 @@ const Navbar = () => {
             security="true"
             src="/logo_professionals.png"
             alt="الشعار"
-            className="h-32 py-1 w-32 object-cover"
+            className="h-32 py-1 w-32 object-contain"
           />
         </Link>
 

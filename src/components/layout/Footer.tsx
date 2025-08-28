@@ -62,7 +62,7 @@ const Footer = () => {
           <p className="text-muted-foreground">
             &copy; {currentYear} {t("footer.copyright")}
           </p>
-          <p className="text-sm text-muted-foreground">
+          {/* <p className="text-sm text-muted-foreground">
             {t("footer.designBy")}{" "}
             <a
               href="https://mayazin.net/"
@@ -70,7 +70,7 @@ const Footer = () => {
             >
               MAYAZIN
             </a>
-          </p>
+          </p> */}
         </div>
       </div>
     </footer>
